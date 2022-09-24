@@ -1,0 +1,19 @@
+{
+    "name": "rznski/php-di-container",
+    "description": "Simple PHP dependency injection container",
+    "autoload": {
+        "psr-4": {
+            "App\\": ""
+        }
+    },
+    "authors": [
+        {
+            "name": "Raimondas"
+        }
+    ],
+    "require": {
+      "ext-http": "*",
+        "phpunit/phpunit": "^9.5",
+        "psr/container": "^2.0"
+    }
+}
